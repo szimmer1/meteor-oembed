@@ -1,8 +1,8 @@
 Package.describe({
-    name: 'iframely:oembed',
+    name: 'szimmer1:oembed',
     summary: 'Easy insert oEmbed widget in template',
-    version: '0.0.2',
-    git: 'https://github.com/itteco/meteor-oembed.git'
+    version: '0.0.1',
+    git: 'https://github.com/szimmer1/meteor-oembed.git'
 });
 
 Package.onUse(function(api) {
@@ -25,5 +25,5 @@ Package.onUse(function(api) {
 
     api.addFiles('lib/settings.js');
 
-    api.export('IframelyOembed');
+    api.export('UsportOembed');
 });
